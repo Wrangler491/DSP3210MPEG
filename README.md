@@ -14,3 +14,5 @@ Current limitations - subject to change
 
 
 With thanks to Michael Henke and the source code for mpeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
+
+If you would like to support this development please consider using Ko-Fi and making a donation: https://ko-fi.com/wrangler96413
