@@ -18,4 +18,4 @@ MPEG 1 Layer III additional limitations
 - MPEG 1 Layer III files must be 96kbps or less
 - Joint stereo not fully supported
 
-With thanks to Michael Henke and the source code for mpeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
+With thanks to Michael Henke and the source code for delfinampeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
