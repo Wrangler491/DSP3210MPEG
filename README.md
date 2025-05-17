@@ -3,7 +3,7 @@ MPEG 1 Layer II and III decoder and player for AA3000+ Amigas
 
 Requires 68030 or better CPU, DSP3210 on board, 2MB Fast RAM, Amiga OS 3.1 or higher
 
-If you would like to support this development or drop me a than you, please consider using Ko-Fi and making a donation via the Ko-Fi sponsorship link on this repository's main page
+If you would like to support this development or drop me a thank you, please consider using Ko-Fi and making a donation via the Ko-Fi sponsorship link on this repository's main page
 
 DSPMPEG implements mpeg.device using the DSP3210 found on the Amiga AA3000+.  It can decode and play MPEG 1 Layer II and Layer III files with some limitations.  Playback is via Paula in 14 bit stereo sound.
 
@@ -20,6 +20,6 @@ Known bugs
 - Fast forward and rewind are not currently functioning correctly in AMPlifier
 - Volume control for MP3s not working (MP2s are fine)
 - The wrapper for mpeg.devices to become MHI devices (mhimdev) does not function correctly
-- Not fully tested yet on CPUs > 030
+- Not tested yet on CPUs > 030
 
 With thanks to Michael Henke and the source code for delfinampeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
