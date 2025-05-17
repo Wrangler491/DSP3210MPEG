@@ -1,0 +1,15 @@
+AMPlifier is recommended as it requires relatively light resources
+
+To use dsp3210mpeg.device in AMPlifier:
+
+- Save dsp3210mpeg.device in DEVS:
+- In AMPlifier, under the menu option Settings/Configuration, in the Audio I/O tab, select MPEG audio player and Configure.  
+- In the Decoder tab set layer I and II and layer III to Hardware and choose MPEG Device to be devs:dsp3210mpeg.device and unit 0
+- Set the buffers as high as you can spare for your system
+
+dsp3210mpeg.device supports an environment variable DSP3210MPEG, which currently has the following switches:
+
+L2MONO - if set, this forces mono output on layer II files
+QUAL   - if set, this sets the frequency divisor to 2 (default is 4)
+
+Example: setenv DSP3210MPEG QUAL would set the frequency divisor to 2
