@@ -12,7 +12,7 @@ Current limitations - subject to change
 - Using an '030 CPU, a fast player is required and one that supports the mpeg.device standard.  AMPlifier is recommended
 
 MPEG 1 Layer III additional limitations
-- MPEG 1 Layer III files must be 96kbps or less
+- MPEG 1 Layer III files must be 96kbps or less and the frequency 32kHz
 - Layer III files require frequency divisor of 4
 - Joint stereo not fully supported
 
