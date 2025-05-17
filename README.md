@@ -1,4 +1,4 @@
-# DSPMPEG
+# DSP3210MPEG
 MPEG 1 Layer II and III decoder and player for AA3000+ Amigas
 
 Requires 68030 or better CPU, DSP3210 on board, 2MB Fast RAM, Amiga OS 3.1 or higher
