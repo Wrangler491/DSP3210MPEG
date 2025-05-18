@@ -12,7 +12,7 @@ Current limitations - subject to change
 - Using an '030 CPU, a fast player is required and one that supports the mpeg.device standard.  AMPlifier is recommended
 
 MPEG 1 Layer III additional limitations
-- MPEG 1 Layer III files must be 96kbps or less and the frequency 32kHz
+- MPEG 1 Layer III files must be 96kbps or less and the frequency 32kHz (see below for how to do this)
 - Layer III files require frequency divisor of 4
 - Joint stereo not fully supported
 
@@ -23,3 +23,11 @@ Known bugs
 - Not tested yet on CPUs > 030
 
 With thanks to Michael Henke and the source code for delfinampeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
+
+Converting bitrates and frequencies
+I use ffmpeg for this, which you can run from the command line
+To convert to mp2:
+  ffmpeg -i <input file> -ar 48000 -ac 2 -ab 128000 -acodec mp2 <output file>
+
+To convert to mp3 with 96kbps bitrate and 32kHz frequency:
+  ffmpeg -i <input file> -ar 32000 -ac 2 -ab 96000 -acodec libmp3lame <output file>
