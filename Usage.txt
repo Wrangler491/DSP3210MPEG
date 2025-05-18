@@ -13,3 +13,5 @@ L2MONO - if set, this forces mono output on layer II files
 QUAL   - if set, this sets the frequency divisor to 2 (default is 4)
 
 Example: setenv DSP3210MPEG QUAL would set the frequency divisor to 2
+
+Currently setting the frequency divisor to 2 and playing an MP3 is unsupported, and will crash your Amiga
