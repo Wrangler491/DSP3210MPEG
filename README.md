@@ -22,9 +22,10 @@ Known bugs
 - The wrapper for mpeg.devices to become MHI devices (mhimdev) does not function correctly
 - Not tested yet on CPUs > 030
 
-With thanks to Michael Henke and the source code for delfinampeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software 
+With thanks to Michael Henke and the source code for delfinampeg.device for Delfina DSP and Stephane Tavenard for MPEGA, both of which provided inspiration for this software
 
 Converting bitrates and frequencies
+
 I use ffmpeg for this, which you can run from the command line
 
 To convert to mp2:
