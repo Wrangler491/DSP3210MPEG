@@ -30,8 +30,8 @@ I use ffmpeg for this, which you can run from the command line
 
 To convert to mp2:
 
-ffmpeg -i <input file> -ar 48000 -ac 2 -ab 128000 -acodec mp2 <output file>
+ffmpeg -i [input file] -ar 48000 -ac 2 -ab 128000 -acodec mp2 [output file]
 
 To convert to mp3 with 96kbps bitrate and 32kHz frequency:
 
-ffmpeg -i <input file> -ar 32000 -ac 2 -ab 96000 -acodec libmp3lame <output file>
+ffmpeg -i [input file] -ar 32000 -ac 2 -ab 96000 -acodec libmp3lame [output file]
