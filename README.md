@@ -18,7 +18,6 @@ MPEG 1 Layer III additional limitations
 
 Known bugs
 - Fast forward and rewind are not currently functioning correctly in AMPlifier
-- Volume control for MP3s not working (MP2s are fine)
 - The wrapper for mpeg.devices to become MHI devices (mhimdev) does not function correctly
 - Not tested yet on CPUs > 030
 
