@@ -1,4 +1,4 @@
-AMPlifier is recommended as it requires relatively light resources
+AMPlifier v2.35 is recommended as it requires relatively light resources
 
 To use dsp3210mpeg.device in AMPlifier:
 
