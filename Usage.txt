@@ -10,8 +10,9 @@ To use dsp3210mpeg.device in AMPlifier:
 dsp3210mpeg.device supports an environment variable DSP3210MPEG, which currently has the following switches:
 
 L2MONO - if set, this forces mono output on layer II files
-QUAL   - if set, this sets the frequency divisor to 2 (default is 4)
+QUAL   - if set, this sets the frequency divisor to 2 (default is 4) on MP2s
+HQUAL  - if set, this sets the frequency divisor to 1 (default is 4) on MP2s, and supersedes QUAL if that is also set
 
 Example: setenv DSP3210MPEG QUAL would set the frequency divisor to 2
 
-Currently setting the frequency divisor to 2 and playing an MP3 is unsupported, and will crash your Amiga
+Currently, the frequency divisor for playing MP3s is hard-coded to 4
