@@ -7,12 +7,12 @@ If you would like to support this development or drop me a thank you, please con
 
 DSPMPEG implements mpeg.device using the DSP3210 found on the Amiga AA3000+.  It can decode and play MPEG 1 Layer II and Layer III files with some limitations.  Playback is via Paula in 14 bit stereo sound.
 
-Current limitations - subject to change
-- The device operates with a frequency divisor of 2 or 4, so an MPEG 1 Layer II file at 48 kHz will actually be played at 12 kHz or 24 KHz.  The default is a frequency divisor of 4.  A frequency divisor of 1 is not supported.  
+Notes
+- The device operates with a frequency divisor of 1, 2 or 4, so an MPEG 1 Layer II file at 32 kHz can be played at 32, 16 or 8 kHz, respectively.  The default is a frequency divisor of 4 but the other options can be selected with an environment variable.  Certain combinations of bit rates and divisor will not be achievable, though
 - Using an '030 CPU, a fast player is required and one that supports the mpeg.device standard.  AMPlifier is recommended
 
-MPEG 1 Layer III additional limitations
-- MPEG 1 Layer III files must be 96kbps or less and the frequency 32kHz (see below for how to do this)
+MPEG 1 Layer III limitations
+- MPEG 1 Layer III files must be 112kbps or less and the frequency 32kHz (see below for how to do this)
 - Layer III files require frequency divisor of 4
 - Joint stereo not fully supported
 
